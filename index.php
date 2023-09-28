@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['id'] = $usuario['id'];
             $_SESSION['nome'] = $usuario['nome'];
 
-            header("Location: consulta-musica.php");
+            header("Location: cifras/musicas");
             exit(); // Certifique-se de sair após redirecionar
         } else {
             $mensagemErro = "Falha ao logar! E-mail ou senha incorretos";
