@@ -147,9 +147,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <?php endif; ?>
                                     </div>
                                     <a class="btn btn-sm btn-danger" href="../logout.php">Sair</a>
+                                    <a class="btn btn-sm btn-danger" href="../logout.php">Sair</a>
                                 </div>
                             </div>
-                            <a class="btn btn-sm btn-danger" href="../logout.php">Sair</a>
 
                         </div>
                     </section>
