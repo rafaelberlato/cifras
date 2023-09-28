@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="row mx-auto">
 
                 <div class="logo col-auto">
-                    <a href="https://rafaelberlato.site/cifras"><img src="../image/logo-148x40.svg" alt="cifras e uma silhueta de um violão"></a>
+                    <a href="https://rafaelberlato.site/cifras/musicas"><img src="../image/logo-148x40.svg" alt="cifras e uma silhueta de um violão"></a>
                 </div>
 
                 <?php if (!$result || $result->num_rows == 0) { ?>
