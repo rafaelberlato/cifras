@@ -2,6 +2,8 @@
 include_once('../config/conexao.php');
 include_once('../protect.php');
 
+echo "conectado";
+
 // $search_query = isset($_GET['q']) ? $_GET['q'] : '';
 $search_query = isset($_GET['q']) ? $_GET['q'] : '';
 $search_query = filter_var($search_query, FILTER_SANITIZE_SPECIAL_CHARS);
