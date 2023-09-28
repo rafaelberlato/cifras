@@ -41,6 +41,54 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/master.css">
     <title> <?php echo $music_name; ?> </title>
+    <style>
+        /* CSS Mobile First */
+        #component-layout-header {
+            background-color: #f8f9fa;
+            /* Cor de fundo do header */
+        }
+
+        #component-layout-header .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        /* Para dispositivos com largura de tela até 576px */
+        @media (max-width: 576px) {
+            #component-layout-header .row {
+                flex-direction: column;
+                /* Organiza os filhos do container em coluna */
+            }
+
+            .form-control.form-control-sm {
+                margin-bottom: 10px;
+                /* Adiciona margem abaixo do input */
+            }
+
+            .col-auto {
+                margin-bottom: 10px;
+                /* Adiciona margem abaixo dos botões */
+            }
+        }
+
+        /* Para dispositivos com largura de tela superior a 576px */
+        @media (min-width: 577px) {
+            #component-layout-header .row {
+                flex-direction: row;
+                /* Organiza os filhos do container em linha */
+            }
+
+            .form-control.form-control-sm {
+                margin-bottom: 0;
+                /* Remove a margem abaixo do input */
+            }
+
+            .col-auto {
+                margin-bottom: 0;
+                /* Remove a margem abaixo dos botões */
+            }
+        }
+    </style>
 </head>
 
 
