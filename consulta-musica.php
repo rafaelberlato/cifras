@@ -144,10 +144,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <?php else : ?>
                                             <button class="btn btn-warning" disabled>Editar</button>
                                             <button class="btn btn-danger" disabled>Excluir</button>
+                                            <a class="btn btn-sm btn-danger" href="../logout.php">Sair</a>
                                         <?php endif; ?>
                                     </div>
-                                    <a class="btn btn-sm btn-danger" href="../logout.php">Sair</a>
-                                    <a class="btn btn-sm btn-danger" href="../logout.php">Sair</a>
+                                    <a class="btn btn-sm btn-danger" href="logout.php">Sair</a>
                                 </div>
                             </div>
 
