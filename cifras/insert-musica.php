@@ -1,7 +1,6 @@
 <?php
 include_once('../config/conexao.php');
-include_once('protect.php');
-
+include_once('../protect.php');
 
 // $search_query = isset($_GET['q']) ? $_GET['q'] : '';
 $search_query = isset($_GET['q']) ? $_GET['q'] : '';

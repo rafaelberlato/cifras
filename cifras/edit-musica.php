@@ -1,6 +1,6 @@
 <?php
-include_once('config/conexao.php');
-include_once('protect.php');
+include_once('../config/conexao.php');
+include_once('../protect.php');
 
 $musicaId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 $nomeMusica = '';
