@@ -142,8 +142,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             <a class="btn btn-warning" href="edit-musica.php?id=<?php echo $row['id']; ?>" target="_blank" rel="noopener noreferrer">Editar</a>
                                             <a class="btn btn-danger" href="delete-musica.php" target="_blank" rel="noopener noreferrer">Excluir</a>
                                         <?php else : ?>
-                                            <button class="btn btn-warning" disabled>Editar</button>
-                                            <button class="btn btn-danger" disabled>Excluir</button>
+                                            <button class="btn btn-sm btn-warning" disabled>Editar</button>
+                                            <button class="btn btn-sm btn-danger" disabled>Excluir</button>
                                             <a class="btn btn-sm btn-danger" href="../logout.php">Sair</a>
                                         <?php endif; ?>
                                     </div>
