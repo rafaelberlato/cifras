@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
 
-    <header id="component-layout-header" class="d-flex align-items-center justify-content-center p-1">
+    <!-- <header id="component-layout-header" class="d-flex align-items-center justify-content-center p-1">
 
         <form method="post" action="" class="">
             <div class="row mx-auto">
@@ -73,6 +73,47 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <div class="d-flex align-items-center justify-content-center mx-3">
             <input type="range" class="form-range " id="customRange1" min="1" max="50" value="1">
+        </div>
+
+    </header> -->
+
+
+    <header id="component-layout-header" class="p-1">
+
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-12 col-md-auto text-center mb-2 mb-md-0">
+                    <a href="https://rafaelberlato.site/cifras/musicas">
+                        <img src="../image/logo-148x40.svg" alt="cifras e uma silhueta de um violão" class="img-fluid">
+                    </a>
+                </div>
+
+                <form method="post" action="" class="col-12 col-md-auto">
+                    <div class="row align-items-center justify-content-center gx-2">
+                        <?php if (!$result || $result->num_rows == 0) { ?>
+                            <div class="col-12 col-sm-6 mt-1 mb-1">
+                                <input class="form-control form-control-sm" type="text" name="search_query" id="search_query" placeholder="Pesquisar uma música...">
+                            </div>
+
+                            <div class="col-auto mt-1 mb-1">
+                                <button id="busca" class="btn btn-success btn-sm">
+                                    <i class="fa-solid fa-magnifying-glass" style="color: #0c214c;"></i>Busca
+                                </button>
+                            </div>
+                        <?php } ?>
+
+                        <div class="col-auto mt-1 mb-1">
+                            <button id="scrollToBottomButton" class="btn btn-primary btn-sm">Rolar</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="col-12 col-md-auto mt-2 mt-md-0">
+                    <input type="range" class="form-range" id="customRange1" min="1" max="50" value="1">
+                </div>
+
+            </div>
         </div>
 
     </header>
