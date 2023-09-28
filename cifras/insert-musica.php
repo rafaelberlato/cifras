@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <header id="component-layout-header" class="d-flex align-items-center justify-content-center p-2">
         <div class="d-flex align-items-center justify-content-center">
             <div class="">
-                <a class="logo" href="https://rafaelberlato.site/cifras"><img src="../image/logo-148x40.svg" alt="cifras e uma silhueta de um violão"></a>
+                <a class="logo" href="https://rafaelberlato.site/cifras/consulta-musica.php"><img src="../image/logo-148x40.svg" alt="cifras e uma silhueta de um violão"></a>
             </div>
     </header>
 
