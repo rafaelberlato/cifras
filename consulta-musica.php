@@ -110,9 +110,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </form>
 
                 <div class="col-12 col-md-auto mt-2 mt-md-0">
-                    <input type="range" class="form-range" id="customRange1" min="1" max="50" value="1">
+                    <input type="range" class="form-range" id="customRange1" min="1" max="100" value="1">
                 </div>
 
+                <div class="col-12 col-md-auto mt-2 mt-md-0">
+                    <a class="btn btn-sm btn-danger" href="logout.php">Sair</a>
+                </div>
             </div>
         </div>
 
