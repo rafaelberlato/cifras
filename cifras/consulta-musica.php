@@ -1,6 +1,6 @@
 <?php
-include_once('../config/conexao.php');
-include_once('protect.php');
+include_once('../../config/conexao.php');
+include_once('../protect.php');
 
 // Inicialize as variáveis
 $search_query = "";
