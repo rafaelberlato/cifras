@@ -42,12 +42,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../css/master.css">
     <title> <?php echo $music_name; ?> </title>
     <style>
-        /* CSS Mobile First */
-        #component-layout-header {
-            background-color: #f8f9fa;
-            /* Cor de fundo do header */
-        }
-
         #component-layout-header .container-fluid {
             padding-left: 15px;
             padding-right: 15px;
